@@ -12,6 +12,9 @@ which would have been a lot better lol.
 
 This uses the Virtual box vuln. driver to load our kernel. (kernel project not included)
 
+Also make sure you clear traces of the driver used.
+(Timestamp of this driver 0x4840B58D)
+
 Feel free to use this in whatever way you like.
 
 Credits:
