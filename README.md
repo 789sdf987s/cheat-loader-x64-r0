@@ -15,7 +15,8 @@ This uses the Virtual box vuln. driver to load our kernel. (kernel project not i
 Feel free to use this in whatever way you like.
 
 Credits:
-@Google
-@VMProtect
-@Unknowncheats for the vuln. kernel
-@me
+- @Google
+- @VMProtect
+- @Unknowncheats for the vuln. kernel
+- @me
+- @hde64 - disasm code
