@@ -43,7 +43,7 @@ void thread()
 	anti::p_proc->stealththrd(hnd);
 	auto client = new web::client(true, true);
 	srand((int)&client + time(NULL));
-	if (!client->connect(strw(L"back.zero5.xyz"))) { ExitProcess(0); }
+	if (!client->connect(strw(L"back.something.com"))) { ExitProcess(0); }
 	/*look if user has never logged in before*/
 	if (user::p_data->name().empty())
 	{
@@ -134,12 +134,12 @@ void thread()
 	driver::p_loader->unload(service_name_wstr.c_str());	
 	DeleteFileA(driver_path.c_str());
 
-	print("waiting for gamez bdo");
+	print("waiting for <game>");
 	user::p_data->log(stra("waiting for game"));
 
 	while (!game::p_game->running()) { Sleep(500); }
 
-	print("gamez bdo detected");
+	print("<game> detected");
 	user::p_data->log(stra("game found"));
 	user::p_data->flag(); /*allows the cheat to load ingame*/
 
